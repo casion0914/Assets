@@ -62,9 +62,9 @@ public class MainController : MonoBehaviour
     }
     private void Start()
     {
-        //ssdk = gameObject.AddComponent<ShareSDK> ();
-        //ssdk.authHandler = OnAuthResultHandler;
-        //ssdk.showUserHandler = OnGetUserInfoResultHandler;
+        ssdk = gameObject.AddComponent<ShareSDK> ();
+        ssdk.authHandler = OnAuthResultHandler;
+        ssdk.showUserHandler = OnGetUserInfoResultHandler;
         gameObject.AddComponent<HotFixManager>();
         LoadAssetBudle.Instance.DebugMode = false;
         LoadAssetBudle.Instance.CheckExtractResource();

@@ -10,7 +10,6 @@ namespace cn.sharesdk.unity3d
 		public WeChat wechat;
 		public WeChatMoments wechatMoments; 
 		public WeChatFavorites wechatFavorites;
-
 	}
 
 	public class DevInfo 
